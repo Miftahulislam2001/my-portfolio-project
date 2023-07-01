@@ -1,6 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
-import img_1 from "../../assets/img_1.png";
+import img_1 from '../../assets/Port_1.png'
+import img_2 from '../../assets/Port_2.png'
+import img_3 from '../../assets/Port_3.png'
 
 const Portfolio = () => {
     return (
@@ -13,7 +15,7 @@ const Portfolio = () => {
                     <div className="portfolio_item-img">
                         <img src={img_1} alt="" />
                     </div>
-                    <h3>Portfolio item title</h3>
+                    <h3>Martial-Arts Project</h3>
                     <div className="portfolio_item-cta">
                     <a
                         href="https://github.com/Miftahulislam2001/martail-arts-client"
@@ -33,19 +35,19 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio_item">
                     <div className="portfolio_item-img">
-                        <img src={img_1} alt="" />
+                        <img src={img_2} alt="" />
                     </div>
-                    <h3>Portfolio item title</h3>
+                    <h3>Chef-Recipe-project </h3>
                     <div className="portfolio_item-cta">
                     <a
-                        href="https://github.com/Miftahulislam2001/martail-arts-client"
+                        href="https://github.com/Miftahulislam2001/chef-recipe-client-site"
                         className="btn"
                         target="_blank"
                     >
                         Github
                     </a>
                     <a
-                        href="https://martial-arts-5150e.web.app"
+                        href="https://chafe-cafe.web.app/"
                         className="btn btn-primary"
                         target="_blank"
                     >
@@ -55,19 +57,19 @@ const Portfolio = () => {
                 </article>
                 <article className="portfolio_item">
                     <div className="portfolio_item-img">
-                        <img src={img_1} alt="" />
+                        <img src={img_3} alt="" />
                     </div>
-                    <h3>Portfolio item title</h3>
+                    <h3>Kids-Toys-Project</h3>
                     <div className="portfolio_item-cta">
                     <a
-                        href="https://github.com/Miftahulislam2001/martail-arts-client"
+                        href="https://github.com/Miftahulislam2001/kids-toy-client"
                         className="btn"
                         target="_blank"
                     >
                         Github
                     </a>
                     <a
-                        href="https://martial-arts-5150e.web.app"
+                        href="https://girls-toys.web.app/"
                         className="btn btn-primary"
                         target="_blank"
                     >

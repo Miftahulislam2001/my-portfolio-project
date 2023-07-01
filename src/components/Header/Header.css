@@ -11,10 +11,10 @@ header {
 }
 
 /* =========== CTA ============= */
-.cta {
+.Cta {
   margin-top: 2.5rem;
   display: flex;
-  gap: 1.2rem;
+  gap: 1.5rem;
   justify-content: center;
 }
 /* =========== HEADER SOCIAL ============= */
@@ -54,6 +54,10 @@ header {
   transform: rotate(90deg);
   font-size: 0.9rem;
   font-weight: 200;
+}
+
+.d-btn{
+  font-size: 1.2rem;
 }
 
 /* ============= MEDIUM DEVICES =============  */

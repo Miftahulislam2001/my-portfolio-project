@@ -39,13 +39,13 @@ const Contact = () => {
                     <article className="contact_option">
                         <RiMessengerLine className='contact_option-icon'/>
                         <h4>Messenger</h4>
-                        <h5>miftahullislam@gmail.com</h5>
+                        <h5>miftahull islam</h5>
                         <a href="https://m.me/miftahulislam2001" target='_blank'>Send a Massage</a>
                     </article>
                     <article className="contact_option">
                     <BsWhatsapp className='contact_option-icon'/>
                         <h4>WhatsApp</h4>
-                        <h5>miftahullislam@gmail.com</h5>
+                        <h5>+8801633615258</h5>
                         <a href="https://api.whatsapp.com/send?phone+8801633615258" target='_blank'>Send a Massage</a>
                     </article>
 

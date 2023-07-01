@@ -37,6 +37,7 @@
 .service_list-icon{
     color: var(--color-primary);
     margin-top: 2px;
+    font-size: 3rem;
     
 }
 .service_list p {

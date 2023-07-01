@@ -1,6 +1,6 @@
 import React from 'react';
 import './Services.css'
-import {BsCheckLg} from 'react-icons/bs'
+import {FaCheck} from 'react-icons/fa'
 
 const Services = () => {
     return (
@@ -15,29 +15,29 @@ const Services = () => {
                     </div> 
                     <ul className='service_list'>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>User-centric, intuitive designs for enhanced experiences.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Visually appealing interfaces, focused on user experience.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Wireframing, prototyping, and validating design concepts.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>User research, usability testing, improving interface usability.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Responsive designs ensuring optimal performance across devices.</p>
                         </li>
                     
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Collaborating with development teams for seamless integration.</p>
                         </li>
                     </ul>
                 </article>
@@ -48,29 +48,29 @@ const Services = () => {
                     </div> 
                     <ul className='service_list'>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Customized websites tailored to your unique needs.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Responsive designs for seamless mobile and desktop experiences.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Front-end development modern frameworks and technologies.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Back-end development functionality and data management.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>UI/UX design expertise, enhancing digital experiences.</p>
                         </li>
                     
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Website maintenance and support for hassle-free operation.</p>
                         </li>
                     </ul>
                 </article>
@@ -80,29 +80,29 @@ const Services = () => {
                     </div> 
                     <ul className='service_list'>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Engaging and persuasive content that captivates audiences.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Tailored content strategies for brand awareness and growth.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>SEO optimization for higher search engine rankings. Content Creation ranking </p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Social media content creation for effective online presence.</p>
                         </li>
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Blogging and article writing for informative and valuable content.</p>
                         </li>
                     
                         <li>
-                            <BsCheckLg />
-                            <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+                            <FaCheck />
+                            <p>Compelling storytelling to evoke emotions and connect with readers.</p>
                         </li>
                     </ul>
                 </article>

@@ -12,10 +12,10 @@ const Header = () => {
     return (
         <header>
             <div className="container header_container">
-                <h5>Hello Im </h5>
-                <h1>Mifthul islam</h1>
+                <h5>Hello I'm </h5>
+                <h1>Mifthul islam Sohan</h1>
                 <h5 className="text-light">
-                   Front - end Developer 
+                   Front - End Developer 
                 </h5>
                 <Cta></Cta>
                 <HeaderSocials></HeaderSocials>
@@ -24,7 +24,7 @@ const Header = () => {
                     <img src={Me} alt="" />
                 </div>
 
-                <a href="#contact" className='scroll_down'>Scroll_Sown</a>
+                <a href="#contact" className='scroll_down'>Scroll_Down</a>
             </div>
         </header>
     );

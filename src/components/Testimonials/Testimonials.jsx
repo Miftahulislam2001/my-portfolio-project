@@ -1,6 +1,8 @@
 import React from 'react';
 import './Testimonials.css'
-import avatar from '../../assets/sohan.png'
+import M from '../../assets/M.jpg'
+import C from '../../assets/C.jpg'
+import J from '../../assets/J.jpg'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -25,29 +27,29 @@ const Testimonials = () => {
       pagination={{ clickable: true }}>
                 <SwiperSlide className='testimonial'>
                     <div className="client_avatar">
-                        <img src={avatar} alt="avatar one" />
+                        <img src={J} alt="avatar one" />
                     </div>
-                    <h5 className='client_name'>Miftahul Islam sohan</h5>
+                    <h5 className='client_name'>jose phallee</h5>
                         <small className='client_review'>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat exercitationem facere reprehenderit ducimus vero aliquam consectetur labore, asperiores obcaecati distinctio expedita nobis dolor illum dignissimos, recusandae itaque beatae dolores aut.
+                        Fantastic work. Miftahul is a good communicator and very professional. He took our Figma, made a few quick suggestions, and quickly delivered the code. I'd highly recommend him.
                         </small>
                 </SwiperSlide>
                 <SwiperSlide className='testimonial'>
                     <div className="client_avatar">
-                        <img src={avatar} alt="avatar one" />
+                        <img src={C} alt="avatar one" />
                     </div>
-                    <h5 className='client_name'>Miftahul Islam sohan</h5>
+                    <h5 className='client_name'>charlenacharday</h5>
                         <small className='client_review'>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat exercitationem facere reprehenderit ducimus vero aliquam consectetur labore, asperiores obcaecati distinctio expedita nobis dolor illum dignissimos, recusandae itaque beatae dolores aut.
+                        I had an amazing experience working on this project with Miftahul. He went beyond to make sure outcome was as desired. Definitely recommend.
                         </small>
                 </SwiperSlide>
                 <SwiperSlide className='testimonial'>
                     <div className="client_avatar">
-                        <img src={avatar} alt="avatar one" />
+                        <img src={M} alt="avatar one" />
                     </div>
-                    <h5 className='client_name'>Miftahul Islam sohan</h5>
+                    <h5 className='client_name'>Markbedol</h5>
                         <small className='client_review'>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat exercitationem facere reprehenderit ducimus vero aliquam consectetur labore, asperiores obcaecati distinctio expedita nobis dolor illum dignissimos, recusandae itaque beatae dolores aut.
+                        Miftahul is a great developer. He truely understood the assignment and delivered to my satisfaction. He is also very reliable. I highly recommend his skills.
                         </small>
                 </SwiperSlide>
 

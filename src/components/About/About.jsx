@@ -29,12 +29,12 @@ const About = () => {
                         </article>
                         <article className="about_card">
                             <AiFillFilePpt className='about_icon' />
-                           <h5>Experience</h5> 
-                           <small>6-7 month Working</small>
+                           <h5>Projects</h5> 
+                           <small>25+ Completed</small>
                         </article>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, doloribus est ad beatae dicta dolor dolorem odio natus deleniti nostrum ducimus magnam excepturi impedit accusantium ipsam hic. Ratione, natus voluptatibus!
+                    Welcome to my Portfolio. I'm a front-end web developer with a passion for creating beautiful and intuitive user experiences. I have experience working with HTML, CSS, JavaScript, and front-end frameworks React . I'm also proficient in responsive design and optimizing websites for performance .
                     
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
