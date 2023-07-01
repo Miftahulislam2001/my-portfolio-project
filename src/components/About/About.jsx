@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css'
-import me from '../../assets/sohan.png'
+ import me from '../../assets/sohan.png'
+// import ME from '../../assets/about_img.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {AiFillFilePpt} from 'react-icons/ai'
