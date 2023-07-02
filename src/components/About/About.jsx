@@ -34,11 +34,13 @@ const About = () => {
                            <small>25+ Completed</small>
                         </article>
                     </div>
+                    <div className='about-btn'>
                     <p>
                     Welcome to my Portfolio. I'm a front-end web developer with a passion for creating beautiful and intuitive user experiences. I have experience working with HTML, CSS, JavaScript, and front-end frameworks React . I'm also proficient in responsive design and optimizing websites for performance .
                     
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    </div>
                 </div>
             </div>
         </section>
