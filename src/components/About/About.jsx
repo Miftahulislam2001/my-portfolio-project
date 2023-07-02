@@ -13,7 +13,7 @@ const About = () => {
             <h2>About Me</h2>
 
             <div className="container about_container">
-                <div className="about_me">
+                <div data-aos="fade-right" className="about_me">
                     <img src={me} alt="" />
                 </div>
                 <div className="about_content">
