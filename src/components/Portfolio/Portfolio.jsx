@@ -11,7 +11,8 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className="container portfolio_container">
-                <article className="portfolio_item">
+                <article data-aos="fade-up"
+     data-aos-duration="2000" className="portfolio_item">
                     <div className="portfolio_item-img">
                         <img src={img_1} alt="" />
                     </div>
@@ -33,7 +34,8 @@ const Portfolio = () => {
                     </a>
                     </div>
                 </article>
-                <article className="portfolio_item">
+                <article data-aos="fade-up"
+     data-aos-duration="2000" className="portfolio_item">
                     <div className="portfolio_item-img">
                         <img src={img_2} alt="" />
                     </div>
@@ -55,7 +57,8 @@ const Portfolio = () => {
                     </a>
                     </div>
                 </article>
-                <article className="portfolio_item">
+                <article data-aos="fade-up"
+     data-aos-duration="2000" className="portfolio_item">
                     <div className="portfolio_item-img">
                         <img src={img_3} alt="" />
                     </div>

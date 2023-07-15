@@ -1,7 +1,7 @@
 import React from 'react';
 import './Experience.css'
 import { BsFillPatchCheckFill } from 'react-icons/bs'
-import Aos from 'aos'
+
 
 const Experience = () => {
     return (
@@ -10,7 +10,7 @@ const Experience = () => {
             <h2>my experience</h2>
 
             <div className="container experience_container">
-                <div className="experience_frontend">
+                <div data-aos="fade-right" data-aos-duration="2000" className="experience_frontend">
                     <h3>Frontend Developer</h3>
                     <div className="experience_container">
                         <article className='experience_details'>
@@ -57,7 +57,7 @@ const Experience = () => {
                         </article>
                     </div>
                 </div>
-                <div className="experience_backend">
+                <div data-aos="fade-left" data-aos-duration="2000" className="experience_backend">
                     <h3>Backend Developer</h3>
                     <div className="experience_container">
                         <article className='experience_details'>

@@ -20,7 +20,7 @@ const Header = () => {
                 <Cta></Cta>
                 <HeaderSocials></HeaderSocials>
 
-                <div className='me'>
+                <div data-aos="zoom-in" data-aos-duration="1000" className='me'>
                     <img src={Me} alt="" />
                 </div>
 

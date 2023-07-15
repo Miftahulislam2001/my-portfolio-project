@@ -30,19 +30,19 @@ const Contact = () => {
 
             <div className="container contact_container">
                 <div className="contact_options">
-                    <article className="contact_option">
+                    <div data-aos="fade-right" data-aos-duration="1000" className="contact_option">
                         <MdOutlineEmail className='contact_option-icon'/>
                         <h4>Email</h4>
                         <h5>miftahullislamsohan@gmail.com</h5>
                         <a href="mailto:miftahullislamsohan@gmail.com" target='_blank'>Send a Massage</a>
-                    </article>
-                    <article className="contact_option">
+                    </div>
+                    <article data-aos="fade-right" data-aos-duration="1000" className="contact_option">
                         <RiMessengerLine className='contact_option-icon'/>
                         <h4>Messenger</h4>
                         <h5>miftahull islam</h5>
                         <a href="https://m.me/miftahulislam2001" target='_blank'>Send a Massage</a>
                     </article>
-                    <article className="contact_option">
+                    <article data-aos="fade-right" data-aos-duration="1000" className="contact_option">
                     <BsWhatsapp className='contact_option-icon'/>
                         <h4>WhatsApp</h4>
                         <h5>+8801633615258</h5>
@@ -51,7 +51,7 @@ const Contact = () => {
 
                 </div>
                 
-                <form ref={form} onSubmit={sendEmail}>
+                <form data-aos="fade-left" data-aos-duration="1000" ref={form} onSubmit={sendEmail}>
                         <input type="text" name='name' placeholder='Your Full name' required />
                         <input type="email" name='email' placeholder='Your Email' required />
                         <textarea name="message" rows="7" placeholder='Your message' required></textarea>
