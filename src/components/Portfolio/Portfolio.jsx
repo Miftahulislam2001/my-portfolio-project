@@ -1,8 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
-import img_1 from '../../assets/Port_1.png'
-import img_2 from '../../assets/Port_2.png'
-import img_3 from '../../assets/Port_3.png'
+import Martel_Arts from '../../assets/Martal-arts.png'
+import img_2 from '../../assets/chafe-cafe.png'
+import img_3 from '../../assets/girls-toys.png'
 
 const Portfolio = () => {
     return (
@@ -14,7 +14,7 @@ const Portfolio = () => {
                 <article data-aos="fade-up"
      data-aos-duration="2000" className="portfolio_item">
                     <div className="portfolio_item-img">
-                        <img src={img_1} alt="" />
+                        <img src={Martel_Arts} alt="" />
                     </div>
                     <h3>Martial-Arts Project</h3>
                     <div className="portfolio_item-cta">
