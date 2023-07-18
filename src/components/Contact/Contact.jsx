@@ -5,6 +5,7 @@ import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     const form = useRef();
@@ -35,7 +36,8 @@ const Contact = () => {
                         <h4>Email</h4>
                         <h5>miftahullislamsohan@gmail.com</h5>
                         <a href="mailto:miftahullislamsohan@gmail.com">Send Email</a>
-                      
+                    
+                        
                     </div>
                     <article data-aos="fade-right" data-aos-duration="1000" className="contact_option">
                         <RiMessengerLine className='contact_option-icon'/>
